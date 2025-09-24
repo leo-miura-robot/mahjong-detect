@@ -1,0 +1,13 @@
+train: C:\Users\leole\siera_ws\mahjong_souz.v1i.yolov8/train/images
+val: C:\Users\leole\siera_ws\mahjong_souz.v1i.yolov8/valid/images
+test: C:\Users\leole\siera_ws\mahjong_souz.v1i.yolov8/test/images
+
+nc: 9
+names: ['1_sou', '2_sou', '3_sou', '4_sou', '5_sou', '6_sou', '7_sou', '8_sou', '9_sou']
+
+roboflow:
+  workspace: leomiurarobot
+  project: mahjong_souz-nn1i8
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/leomiurarobot/mahjong_souz-nn1i8/dataset/1

@@ -1,0 +1,13 @@
+train: C:\Users\leole\siera_ws\src\mahjong\datasets\mahjong.v5\train\images
+val: C:\Users\leole\siera_ws\src\mahjong\datasets\mahjong.v5\valid\images
+test: C:\Users\leole\siera_ws\src\mahjong\datasets\mahjong.v5\test\images
+
+nc: 35
+names: ['0', '1_man', '1_pin', '1_sou', '2_man', '2_pin', '2_sou', '3_man', '3_pin', '3_sou', '4_man', '4_pin', '4_sou', '5_man', '5_pin', '5_sou', '6_man', '6_pin', '6_sou', '7_man', '7_pin', '7_sou', '8_man', '8_pin', '8_sou', '9_man', '9_pin', '9_sou', 'chun', 'haku', 'hatsu', 'nan', 'pe-', 'sya-', 'ton']
+
+roboflow:
+  workspace: leomiurarobot
+  project: mahjong-bmblq
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/leomiurarobot/mahjong-bmblq/dataset/4

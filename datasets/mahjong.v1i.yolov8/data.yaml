@@ -1,0 +1,13 @@
+train: C:\Users\leole\siera_ws\mahjong.v1i.yolov8/train/images
+val: C:\Users\leole\siera_ws\mahjong.v1i.yolov8/valid/images
+test: C:\Users\leole\siera_ws\mahjong.v1i.yolov8/test/images
+
+nc: 33
+names: ['1_man', '1_pin', '1_sou', '2_man', '2_pin', '2_sou', '3_man', '3_pin', '3_sou', '4_man', '4_pin', '4_sou', '5_man', '5_pin', '5_sou', '6_man', '6_pin', '7_man', '7_pin', '7_sou', '8_man', '8_pin', '8_sou', '9_man', '9_pin', '9_sou', 'chun', 'haku', 'hatsu', 'nan', 'pe-', 'sya-', 'ton']
+
+roboflow:
+  workspace: leomiurarobot
+  project: mahjong-bmblq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/leomiurarobot/mahjong-bmblq/dataset/1

@@ -1,0 +1,13 @@
+train: C:\Users\leole\siera_ws\mahjong_tiles/train/images
+val: C:\Users\leole\siera_ws\mahjong_tiles/valid/images
+test: C:\Users\leole\siera_ws\mahjong_tiles/test/images
+
+nc: 1
+names: ['tile']
+
+roboflow:
+  workspace: leomiurarobot
+  project: mahjong_souz-nn1i8
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/leomiurarobot/mahjong_souz-nn1i8/dataset/1
